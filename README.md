@@ -70,3 +70,16 @@ See [Implementation Plan](docs/IMPLEMENTATION_PLAN.md) for detailed setup instru
 - Have manual override capabilities
 - This system does not guarantee profits
 - Trading involves substantial risk
+
+## Security Notice
+🔒 **IMPORTANT**: Never commit your `.env` file or any files containing:
+- API keys
+- Passwords
+- Trading credentials
+- Database files
+- Encryption keys
+
+The `.gitignore` is configured to protect sensitive files. Always verify before pushing:
+```bash
+git status  # Check what will be committed
+```
